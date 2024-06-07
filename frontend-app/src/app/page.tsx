@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 
+
 const Alert: React.FC<{ message: string, onClose: () => void }> = ({ message, onClose }) => {
   return (
     <div className="fixed z-10 inset-0 overflow-y-auto flex justify-center items-center">
@@ -36,7 +37,7 @@ const Login: React.FC = () => {
     if (username === 'admin' && password === 'admin') {
       setShowAlert(true);
       setTimeout(() => {
-        window.location.href = '/inicio';
+        window.location.href = '/Filtro';
       }, 1000); 
     } else {
       setError('Usuario o contraseña incorrectos');
@@ -56,7 +57,7 @@ const Login: React.FC = () => {
         />
       )}
       <div className="hidden md:block md:w-7/12 bg-cover bg-center"
-           style={{ backgroundImage: 'url(https://img.freepik.com/foto-gratis/render-3d-fondo-moderno-diseno-plexo_1048-14881.jpg)' }}>
+           style={{ backgroundImage: 'url(https://wallpapercave.com/wp/wp4937549.jpg)' }}>
       </div>
       <div className="w-full md:w-5/12 flex items-center justify-center bg-white text-black">
         <div className="w-10/12 sm:w-8/12 md:w-6/12 p-8 rounded-lg shadow-lg">

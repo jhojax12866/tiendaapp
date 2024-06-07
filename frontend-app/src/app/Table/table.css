@@ -1,0 +1,33 @@
+/* table.css */
+
+.table-container {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #e2e8f0; /* Color del borde */
+    padding: 8px; /* Espacio alrededor del contenido */
+  }
+  
+  .table th {
+    background-color: #f0f4f8; /* Color de fondo de las celdas del encabezado */
+    font-weight: bold;
+    text-align: left; /* Alineación del texto en el encabezado */
+  }
+  
+  /* Estilos alternos para filas */
+  .table tr:nth-child(even) {
+    background-color: #edf2f7; /* Color de fondo de filas alternas */
+  }
+  
+  /* Hover */
+  .table tr:hover {
+    background-color: #f8fafc; /* Color de fondo al pasar el cursor sobre la fila */
+  }
+  

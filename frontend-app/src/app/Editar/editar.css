@@ -1,0 +1,62 @@
+/* registro.css */
+
+.registro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  h3 {
+    font-size: 24px; /* Tamaño de la fuente */
+    font-weight: bold; /* Negrilla */
+    color: #000000; /* Color de la fuente, puedes cambiar el código hexadecimal para el color que prefieras */
+  }
+  
+
+  
+  .registro-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .registro-column {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+  
+  .registro-column label {
+    margin-bottom: 15px;
+  }
+  
+  .registro-column input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .guardar-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .guardar-button:hover {
+    background-color: #0056b3;
+  }
+  

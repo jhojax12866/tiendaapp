@@ -1,0 +1,39 @@
+/* sidebar.css */
+
+/* sidebar.css */
+
+.sidebar {
+  width: 100%; /* Ancho completo de la página */
+  height: 60px; /* Altura de la barra */
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between; /* Alineación de los elementos */
+  align-items: center; /* Alineación vertical */
+  padding: 0 20px; /* Espaciado interior */
+  position: fixed; /* Barra fija en la parte superior */
+  top: 0; /* Anclar en la parte superior */
+  left: 0; /* Alinear a la izquierda */
+  z-index: 1000; /* Asegurar que esté por encima de otros elementos */
+}
+
+
+.sidebar-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.sidebar-button:hover {
+  background-color: #555;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+

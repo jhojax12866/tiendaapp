@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import './styles/inicio.css';
+import './inicio.css';
 
 const Inicio: React.FC = () => {
   const loans = [
